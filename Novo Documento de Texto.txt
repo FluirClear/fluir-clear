@@ -1,0 +1,144 @@
+Onde posso usar isso para por a pagina online?
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fluir Clear - Controle de Pragas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fffbe6;
+      background-image: url('https://i.imgur.com/jJVekLh.png'); /* imagem animada das pragas andando */
+      background-repeat: repeat;
+      background-size: 200px;
+      animation: moveBg 60s linear infinite;
+    }
+
+    @keyframes moveBg {
+      from { background-position: 0 0; }
+      to { background-position: -1000px 1000px; }
+    }
+
+    header {
+      background-color: #012e40;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header a {
+      background-color: #00b050;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background-color: #ffeb3b;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      color: #111;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+
+    .hero a {
+      background-color: #00a859;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffffcc;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li::before {
+      content: "✅ ";
+    }
+
+    .testimonial {
+      font-style: italic;
+      background-color: #f5f5f5;
+      padding: 1rem;
+      border-left: 5px solid #00b050;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #012e40;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO CONTROLE DE PRAGAS.jpg" alt="Fluir Clear Logo">
+    <a href="https://wa.me/5562981647779?text=Ol%C3%A1!%20Vi%20a%20oferta%20da%20Fluir%20Clear%20com%2010%%20de%20desconto%20e%20quero%20agendar%20minha%20dedetiza%C3%A7%C3%A3o%20contra%20baratas,%20ratos,%20formigas%20e%20escorpi%C3%B5es.%20Pode%20me%20ajudar?" target="_blank">💬 Falar no WhatsApp</a>
+  </header>
+
+  <section class="hero">
+    <h1>Elimine Baratas, Ratos, Formigas e Escorpiões por apenas R$190!</h1>
+    <p>Garanta 10% de desconto agora. Atendimento rápido, seguro e com garantia de 3 meses.</p>
+    <a href="https://wa.me/5562981647779?text=Ol%C3%A1!%20Vi%20a%20oferta%20da%20Fluir%20Clear%20com%2010%%20de%20desconto%20e%20quero%20agendar%20minha%20dedetiza%C3%A7%C3%A3o.%20Pode%20me%20ajudar?" target="_blank">👉 QUERO AGENDAR COM DESCONTO</a>
+  </section>
+
+  <section class="section benefits">
+    <h2>Problemas com pragas?</h2>
+    <p>Elas podem estar na sua cozinha, banheiro, quintal e até no quarto. A Fluir Clear resolve:</p>
+    <ul>
+      <li>Controle de baratas com ação imediata</li>
+      <li>Captura e bloqueio de ratos</li>
+      <li>Eliminação de formigueiros</li>
+      <li>Barreira química contra escorpiões</li>
+      <li>Atendimento rápido e seguro</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Depoimento Real</h2>
+    <p class="testimonial">“Você dedetizou meu apartamento, e quero te dizer que foi ótimo, não tem nenhuma barata. Obrigada!”<br><strong>– Itacira, Residencial Hípica Parque</strong></p>
+    <img src="https://i.imgur.com/NQjCChL.jpg" alt="Depoimento da cliente" width="100%" style="margin-top: 1rem; border-radius: 8px;">
+  </section>
+
+  <footer>
+    <p>Fluir Clear Controle de Pragas<br>
+    Atendimento em Goiânia e Região Metropolitana<br>
+    WhatsApp: (62) 98164-7779 – CNPJ: 54.388.945/0001-51</p>
+  </footer>
+</body>
+</html>
