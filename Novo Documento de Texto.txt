@@ -1,5 +1,3 @@
-Onde posso usar isso para por a pagina online?
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
